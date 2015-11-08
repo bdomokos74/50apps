@@ -17,9 +17,9 @@ Simple part:
 Create a web crawler app in python which, given a url seed, can crawl through all links on the page and scan deep for a given level of depth. While crawling the app should be able to return the url page containing a specific search text.
 
 Input: 
-1 - Url seed e.g. www.hackernews.com 
-2 - Depth e.g. 5 (this means go into links on a page till 5 levels) 
-3 - search text e.g. "python" 
+1. Url seed
+2. Depth e.g. 5 (this means go into links on a page till 5 levels) 
+3. search text e.g. "python" 
 
 Output: 
 the list of url that contains the specified text The Simple part is mandatory to be completed. If you finish the simple part and are eager to take up something challenging, then here's a little complex angle to the problem:
@@ -27,10 +27,10 @@ the list of url that contains the specified text The Simple part is mandatory to
 Complex part: (Optional, if you complete simple part and want to take up something more challenging) 
 
 Write rules around the app for searching. 
-Rule 1: The return Url should contain a specific substring 
-Rule 2: Highlight in output if the url is amongst a long list of blacklisted urls (about 10000 blacklisted urls) 
-Rule 3: Search for multiple search strings and rank Urls as per the number of different search strings found and occurances of each search string in the page 
-Rule 4: Rank as per level of the Url w.r.t. seed url 
+- Rule 1: The return Url should contain a specific substring 
+- Rule 2: Highlight in output if the url is amongst a long list of blacklisted urls (about 10000 blacklisted urls) 
+- Rule 3: Search for multiple search strings and rank Urls as per the number of different search strings found and occurances of each search string in the page 
+- Rule 4: Rank as per level of the Url w.r.t. seed url 
 
 ### Week 2 details (23-29 Jan 2012)
 
@@ -48,11 +48,11 @@ Develop a web application using Python. You can use any Web framework if you wan
 
 Complex part: (Optional, if you complete simple part and want to take up something more challenging) 
 
--> Show results using a bar graph on the web site. The graph should show the number of occurances of the search string on a particular URL. 
--> Since crawling may take time to fully execute, keep showing results as and when they are found by crawler (asynchonously).
--> User should be able to click on Url link from search results to go to that page.
--> Show time spent to get results.
--> Store input and results in DB and show Search History in a different page.
+- Show results using a bar graph on the web site. The graph should show the number of occurances of the search string on a particular URL. 
+- Since crawling may take time to fully execute, keep showing results as and when they are found by crawler (asynchonously).
+- User should be able to click on Url link from search results to go to that page.
+- Show time spent to get results.
+- Store input and results in DB and show Search History in a different page.
 
 
 ### Week 3 details (30 Jan - 5 Feb 2012)
@@ -369,6 +369,6 @@ Try to use map, filter, foldr functions of Haskell.
 
 Complex part: (Optional, if you complete simple part and want to take up something more challenging) 
 
-- implement the above solution in distributed environment using MapReduce framework (see http://holumbus.fh-wedel.de/src/doc/thesis-mapreduce.pdf) 
+- implement the above solution in distributed environment using MapReduce framework
 
 
